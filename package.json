@@ -1,0 +1,28 @@
+{
+  "name": "school_management",
+  "version": "1.0.0",
+  "description": "I is a School Management mini project to handle student data",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dotenv/config src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "school"
+  ],
+  "author": "Soumyadeep Dey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mysql2": "^3.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
